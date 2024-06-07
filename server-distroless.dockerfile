@@ -19,8 +19,7 @@ RUN git config --global url."https://${GH_TOKEN}@github.com".insteadOf "https://
 
 RUN make build_server
 
-
-FROM alpine:3.17
+9.88
 
 ARG USER=app
 ARG USER_UID=1000
